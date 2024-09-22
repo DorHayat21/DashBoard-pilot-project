@@ -119,6 +119,7 @@ button:hover {
   align-items: center;
   height: 330px;
   margin-left: 10px;
+  position: relative;
 }
 
 .compass {
@@ -142,8 +143,8 @@ button:hover {
   border-right: 7px solid transparent;
   border-bottom: 14px solid orange;
   position: absolute;
-  top: 60%;
-  left: 43%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -100%);
   z-index: 1;
 }
@@ -154,10 +155,10 @@ button:hover {
   height: 40px;
   background-color: orange;
   position: absolute;
-  top: 60%;
-  left: 43%;
+  top: 50%;
+  left: 50%;
   transform: translateX(-50%);
-  z-index: 0;
+  z-index: 1;
 }
 
 /* Degree Labels */

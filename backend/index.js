@@ -6,7 +6,7 @@ const app = Express();
 app.use(cors());
 app.use(Express.json()); // Middleware to parse JSON request bodies
 
-const CONNECTION_STRING = "mongodb+srv://dorhayat21:dorhayat21@cluster0.cozip.mongodb.net/Metrics?retryWrites=true&w=majority";
+const CONNECTION_STRING = "mongodb+srv://userNameRequried:passwordRequired@cluster0.cozip.mongodb.net/Metrics?retryWrites=true&w=majority";
 const DATABASE_NAME = "Metrics";
 let database;
 

@@ -1,4 +1,4 @@
-#Pilot DashBoard project: 
+# DashBoard pilot project
 
 Hello, this is a project which simulates a pilot dashboard. The project includes a backend and frontend.
 
